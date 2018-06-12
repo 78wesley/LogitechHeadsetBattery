@@ -1,0 +1,11 @@
+D:\Users\ricky\Desktop\wesley\Battery\Battery\obj\Debug\Battery.Form1.resources
+D:\Users\ricky\Desktop\wesley\Battery\Battery\obj\Debug\Battery.Properties.Resources.resources
+D:\Users\ricky\Desktop\wesley\Battery\Battery\obj\Debug\Battery.csproj.GenerateResource.cache
+D:\Users\ricky\Desktop\wesley\Battery\Battery\obj\Debug\Battery.csproj.CoreCompileInputs.cache
+D:\Users\ricky\Desktop\wesley\Battery\Battery\obj\Debug\Battery.csprojAssemblyReference.cache
+D:\Users\ricky\Desktop\wesley\Battery\Battery\obj\Debug\Battery.appchecker.resources
+D:\Users\ricky\Desktop\wesley\Battery\Battery\bin\Debug\BatteryMonitor.exe.config
+D:\Users\ricky\Desktop\wesley\Battery\Battery\bin\Debug\BatteryMonitor.exe
+D:\Users\ricky\Desktop\wesley\Battery\Battery\bin\Debug\BatteryMonitor.pdb
+D:\Users\ricky\Desktop\wesley\Battery\Battery\obj\Debug\BatteryMonitor.exe
+D:\Users\ricky\Desktop\wesley\Battery\Battery\obj\Debug\BatteryMonitor.pdb

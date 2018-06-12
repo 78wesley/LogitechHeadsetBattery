@@ -1,0 +1,1044 @@
+{
+  "Firmware" : 
+  {
+    "G502" : 
+    {
+      "Last_Check" : "2018-05-27"
+    },
+    "G910" : 
+    {
+      "Last_Check" : "2018-05-27"
+    },
+    "G933" : 
+    {
+      "Last_Check" : "2018-05-27"
+    }
+  },
+  "analytics" : 
+  {
+    "enabled" : false
+  },
+  "audio" : 
+  {
+    "Logitech.Gaming.Spectrum.Headset.G933" : 
+    {
+      "advanced_user_eq" : 
+      {
+        "active" : true,
+        "band_eq_levels" : 
+        [
+          8,
+          7,
+          1,
+          2,
+          -2,
+          3,
+          4,
+          5,
+          9,
+          8
+        ]
+      },
+      "channel_mixer" : 
+      {
+        "active" : true,
+        "levels" : 
+        [
+          11,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ]
+      },
+      "micBoomUp" : true,
+      "micMute" : false,
+      "sidetone" : 
+      {
+        "level" : 0
+      },
+      "simple_user_eq" : 
+      {
+        "active" : false,
+        "band_eq_levels" : 
+        [
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "audiolevelview" : 
+  {
+    "noiseremoval" : true,
+    "panelexpand" : true
+  },
+  "backlight" : 
+  {
+    "Logitech.Gaming.Mouse.G502RGB" : 
+    {
+      "dpi" : 
+      {
+        "persistent" : true
+      }
+    }
+  },
+  "colorLedEffectSettings" : 
+  {
+    "Logitech.Gaming.Mouse.G502RGB" : 
+    {
+      "enablePerProfile" : true
+    },
+    "Logitech.Gaming.Spectrum.Headset.G933" : 
+    {
+      "enablePerProfile" : false
+    }
+  },
+  "current_profile_id" : "{09D92D75-3C8C-4723-B06C-4090BCB899C0}",
+  "discord_applet_shown" : true,
+  "effect_settings" : 
+  {
+    "Logitech.Gaming.Spectrum.Headset.G933" : 
+    {
+      "activeEffectID" : "{335aeb37-2422-4267-b762-12145e3a44e2}",
+      "settings" : 
+      [
+        {
+          "id" : "{335aeb37-2422-4267-b762-12145e3a44e2}",
+          "name" : "off",
+          "readonly" : false,
+          "zones" : 
+          {
+            "1" : 
+            {
+              "color" : "#ff0000",
+              "effectid" : 0,
+              "intensity" : 0,
+              "param" : 0,
+              "rate" : 20000
+            },
+            "2" : 
+            {
+              "color" : "#ff0000",
+              "effectid" : 0,
+              "intensity" : 0,
+              "param" : 0,
+              "rate" : 20000
+            }
+          }
+        }
+      ]
+    }
+  },
+  "eq_settings" : 
+  {
+    "Logitech.Gaming.Spectrum.Headset.G933" : 
+    {
+      "activeEqID" : "{1720d4f8-56e7-4fd8-a95f-e7733f7ff641}",
+      "perProfile" : false,
+      "settings" : 
+      [
+        {
+          "advanced_eq" : 
+          {
+            "band_eqs" : 
+            [
+              8,
+              7,
+              1,
+              2,
+              -2,
+              3,
+              4,
+              5,
+              9,
+              8
+            ]
+          },
+          "id" : "{1720d4f8-56e7-4fd8-a95f-e7733f7ff641}",
+          "name" : "Best",
+          "readonly" : false,
+          "simple_eq" : 
+          {
+            "band_eqs" : 
+            [
+              0,
+              0
+            ]
+          },
+          "use_simple_eq" : false
+        },
+        {
+          "advanced_eq" : 
+          {
+            "band_eqs" : 
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "id" : "{e69ea069-bbb1-4e67-a949-235c993ab7e2}",
+          "name" : "Bassboosted",
+          "readonly" : false,
+          "simple_eq" : 
+          {
+            "band_eqs" : 
+            [
+              12,
+              0
+            ]
+          },
+          "use_simple_eq" : true
+        }
+      ]
+    }
+  },
+  "f8070" : 
+  {
+    "Logitech.Gaming.Mouse.G502RGB" : 
+    {
+      "perProfile" : true,
+      "sleepTimer" : 
+      {
+        "enabled" : true,
+        "minutes" : 10
+      },
+      "zoneDefaults" : 
+      {
+        "1" : 
+        {
+          "color" : "#000000",
+          "effectid" : 3,
+          "intensity" : 100,
+          "param" : 0,
+          "rate" : 8000
+        },
+        "2" : 
+        {
+          "color" : "#000000",
+          "effectid" : 3,
+          "intensity" : 100,
+          "param" : 0,
+          "rate" : 8000
+        }
+      },
+      "zones" : 
+      {
+        "1" : 
+        {
+          "color" : "#810000",
+          "effectid" : 1,
+          "intensity" : 0,
+          "param" : 0,
+          "rate" : 0
+        },
+        "2" : 
+        {
+          "color" : "#810000",
+          "effectid" : 1,
+          "intensity" : 0,
+          "param" : 0,
+          "rate" : 0
+        }
+      }
+    },
+    "Logitech.Gaming.Spectrum.Headset.G933" : 
+    {
+      "perProfile" : false,
+      "sleepTimer" : 
+      {
+        "enabled" : false,
+        "minutes" : 30
+      },
+      "zoneDefaults" : 
+      {
+        "1" : 
+        {
+          "color" : "#00dcff",
+          "effectid" : 10,
+          "intensity" : 100,
+          "param" : 0,
+          "rate" : 4000
+        },
+        "2" : 
+        {
+          "color" : "#00dcff",
+          "effectid" : 1,
+          "intensity" : 100,
+          "param" : 0,
+          "rate" : 4000
+        }
+      }
+    }
+  },
+  "gameApplets" : 
+  {
+    "C:|Program Files|Logitech Gaming Software|ArxApplets|Assetto Corsa|AssettoCorsaArxApplet.exe" : 
+    {
+      "id" : "scan_from_known_folder",
+      "launch" : 
+      {
+        "profile_associated_but_game_not_found" : false,
+        "profile_guid" : "{9E6D8C2F-0983-4008-8EE3-EC5554C88CAF}",
+        "type" : "never"
+      },
+      "name" : "Assetto Corsa",
+      "support" : 
+      {
+        "arx" : 
+        {
+          "enabled" : false,
+          "support" : true
+        },
+        "led" : 
+        {
+          "enabled" : false,
+          "support" : true
+        }
+      }
+    },
+    "C:|Program Files|Logitech Gaming Software|ArxApplets|Audio Visualizer|Audio_Visualizer_Arx_Applet.exe" : 
+    {
+      "id" : "scan_from_known_folder",
+      "launch" : 
+      {
+        "profile_associated_but_game_not_found" : false,
+        "profile_guid" : "{09D92D75-3C8C-4723-B06C-4090BCB899C0}",
+        "type" : "never"
+      },
+      "name" : "Audio Visualizer",
+      "support" : 
+      {
+        "arx" : 
+        {
+          "enabled" : false,
+          "support" : false
+        },
+        "led" : 
+        {
+          "enabled" : true,
+          "support" : true
+        }
+      }
+    },
+    "C:|Program Files|Logitech Gaming Software|ArxApplets|Counter Strike - GO|CS_GO_Arx_Applet.exe" : 
+    {
+      "id" : "scan_from_known_folder",
+      "launch" : 
+      {
+        "profile_associated_but_game_not_found" : false,
+        "profile_guid" : "{A2606DAA-7B0C-4CA6-B203-2E86E5BE3325}",
+        "type" : "never"
+      },
+      "name" : "Counter Strike - GO",
+      "support" : 
+      {
+        "arx" : 
+        {
+          "enabled" : true,
+          "support" : true
+        },
+        "led" : 
+        {
+          "enabled" : true,
+          "support" : true
+        }
+      }
+    },
+    "C:|Program Files|Logitech Gaming Software|ArxApplets|Discord|logitechg_discord.exe" : 
+    {
+      "id" : "scan_from_known_folder",
+      "launch" : 
+      {
+        "profile_associated_but_game_not_found" : false,
+        "profile_guid" : "",
+        "type" : "never"
+      },
+      "name" : "Discord",
+      "support" : 
+      {
+        "arx" : 
+        {
+          "enabled" : false,
+          "support" : false
+        },
+        "led" : 
+        {
+          "enabled" : true,
+          "support" : true
+        }
+      }
+    },
+    "C:|Program Files|Logitech Gaming Software|ArxApplets|Dota 2|Dota2ArxApplet.exe" : 
+    {
+      "id" : "scan_from_known_folder",
+      "launch" : 
+      {
+        "profile_associated_but_game_not_found" : true,
+        "profile_guid" : "{306FB93B-96A8-43EB-9B5A-352D93EEE712}",
+        "type" : "never"
+      },
+      "name" : "Dota 2",
+      "support" : 
+      {
+        "arx" : 
+        {
+          "enabled" : true,
+          "support" : true
+        },
+        "led" : 
+        {
+          "enabled" : true,
+          "support" : true
+        }
+      }
+    },
+    "C:|Program Files|Logitech Gaming Software|ArxApplets|Screen Sampler|ScreenSampler.exe" : 
+    {
+      "id" : "scan_from_known_folder",
+      "launch" : 
+      {
+        "type" : "never"
+      },
+      "name" : "Screen Sampler",
+      "support" : 
+      {
+        "arx" : 
+        {
+          "enabled" : false,
+          "support" : false
+        },
+        "led" : 
+        {
+          "enabled" : true,
+          "support" : true
+        }
+      }
+    },
+    "C:|Users|Wesley|AppData|Local|FiveM|FiveM.exe" : 
+    {
+      "launch" : 
+      {
+        "type" : "never"
+      },
+      "name" : "FiveM",
+      "support" : 
+      {
+        "arx" : 
+        {
+          "enabled" : false,
+          "support" : false
+        },
+        "led" : 
+        {
+          "enabled" : true,
+          "support" : true
+        }
+      }
+    },
+    "W:|Games|FIVEM|FiveM.exe" : 
+    {
+      "launch" : 
+      {
+        "type" : "never"
+      },
+      "name" : "\uefa0",
+      "support" : 
+      {
+        "led" : 
+        {
+          "connected_once" : true,
+          "enabled" : true,
+          "support" : true
+        }
+      }
+    }
+  },
+  "inputTracker" : 
+  {
+    "Logitech.Gaming.Keyboard.G910" : 
+    {
+      "deviceHeatmap" : true,
+      "showCenter" : true
+    },
+    "spectrum" : 2
+  },
+  "last_battery_status" : 
+  {
+    "0" : 
+    {
+      "last_state" : "discharge",
+      "percentage" : 44,
+      "remainminutes" : 350,
+      "time" : "Sat Mar 10 15:18:24 2018"
+    },
+    "4294967295" : 
+    {
+      "last_state" : "discharge",
+      "percentage" : 43,
+      "remainminutes" : 320,
+      "time" : "Mon Jun 11 14:54:45 2018"
+    }
+  },
+  "lcd" : 
+  {
+    "applets" : 
+    {
+      "1ca5" : 
+      {
+        "appPath" : "C:/Program Files/Logitech Gaming Software/Applets/LCDPictureViewer.exe",
+        "autostartable" : true,
+        "format" : 1,
+        "iconPath" : "",
+        "name" : "Logitech LCD Picture Viewer"
+      },
+      "412f" : 
+      {
+        "appPath" : "C:/Program Files/Logitech Gaming Software/Applets/LCDMovieViewer.exe",
+        "autostartable" : true,
+        "format" : 1,
+        "iconPath" : "",
+        "name" : "Logitech LCD Movie Viewer"
+      },
+      "6214" : 
+      {
+        "appPath" : "C:/Program Files/Logitech Gaming Software/Applets/LCDMedia.exe",
+        "autostartable" : true,
+        "format" : 0,
+        "iconPath" : "",
+        "name" : "Logitech Media Display"
+      },
+      "67f2" : 
+      {
+        "appPath" : "C:/Program Files/Logitech Gaming Software/Applets/LCDClock.exe",
+        "autostartable" : true,
+        "format" : 1,
+        "iconPath" : "",
+        "name" : "Logitech LCD Clock"
+      },
+      "6f00" : 
+      {
+        "appPath" : "C:/Program Files/Logitech Gaming Software/Applets/LCDCountdown.exe",
+        "autostartable" : true,
+        "format" : 0,
+        "iconPath" : "",
+        "name" : "Logitech LCD Countdown Timer"
+      },
+      "6f3d" : 
+      {
+        "appPath" : "C:/Program Files/Logitech Gaming Software/Applets/LCDYT.exe",
+        "autostartable" : true,
+        "format" : 1,
+        "iconPath" : "",
+        "name" : "Logitech LCD Video Player for YouTube\u2122"
+      },
+      "739d" : 
+      {
+        "appPath" : "C:/Program Files/Logitech Gaming Software/Applets/LCDMedia.exe",
+        "autostartable" : true,
+        "format" : 1,
+        "iconPath" : "",
+        "name" : "Logitech Media Display"
+      },
+      "767b" : 
+      {
+        "appPath" : "C:/Program Files/Logitech Gaming Software/Applets/LCDClock.exe",
+        "autostartable" : true,
+        "format" : 0,
+        "iconPath" : "",
+        "name" : "Logitech LCD Clock"
+      },
+      "7e89" : 
+      {
+        "appPath" : "C:/Program Files/Logitech Gaming Software/Applets/LCDCountdown.exe",
+        "autostartable" : true,
+        "format" : 1,
+        "iconPath" : "",
+        "name" : "Logitech LCD Countdown Timer"
+      },
+      "8423" : 
+      {
+        "appPath" : "C:/Program Files/Logitech Gaming Software/Applets/LCDPop3.exe",
+        "autostartable" : true,
+        "format" : 0,
+        "iconPath" : "",
+        "name" : "Logitech LCD POP3 Monitor"
+      },
+      "95aa" : 
+      {
+        "appPath" : "C:/Program Files/Logitech Gaming Software/Applets/LCDPop3.exe",
+        "autostartable" : true,
+        "format" : 1,
+        "iconPath" : "",
+        "name" : "Logitech LCD POP3 Monitor"
+      },
+      "a5ee" : 
+      {
+        "appPath" : "C:/Program Files/Logitech Gaming Software/Applets/LCDWebCam.exe",
+        "autostartable" : true,
+        "format" : 1,
+        "iconPath" : "",
+        "name" : "Logitech LCD Webcam Viewer"
+      },
+      "aab5" : 
+      {
+        "appPath" : "C:/Program Files/Logitech Gaming Software/Applets/LCDClock.exe",
+        "autostartable" : true,
+        "format" : 0,
+        "iconPath" : "",
+        "name" : "Logitech Performance Monitor"
+      },
+      "bb3c" : 
+      {
+        "appPath" : "C:/Program Files/Logitech Gaming Software/Applets/LCDClock.exe",
+        "autostartable" : true,
+        "format" : 1,
+        "iconPath" : "",
+        "name" : "Logitech Performance Monitor"
+      },
+      "c86a" : 
+      {
+        "appPath" : "C:/Program Files/Logitech Gaming Software/LCore.exe",
+        "autostartable" : false,
+        "format" : 0,
+        "iconPath" : "",
+        "name" : "G-Series Profile Selector"
+      },
+      "c872" : 
+      {
+        "appPath" : "C:/Program Files/Logitech Gaming Software/LCore.exe",
+        "autostartable" : false,
+        "format" : 0,
+        "iconPath" : "",
+        "name" : "Logitech Gaming Profiler"
+      },
+      "d9e3" : 
+      {
+        "appPath" : "C:/Program Files/Logitech Gaming Software/LCore.exe",
+        "autostartable" : false,
+        "format" : 1,
+        "iconPath" : "",
+        "name" : "G-Series Profile Selector"
+      },
+      "d9fb" : 
+      {
+        "appPath" : "C:/Program Files/Logitech Gaming Software/LCore.exe",
+        "autostartable" : false,
+        "format" : 1,
+        "iconPath" : "",
+        "name" : "Logitech Gaming Profiler"
+      },
+      "efa9" : 
+      {
+        "appPath" : "C:/Program Files/Logitech Gaming Software/Applets/LCDRSS.exe",
+        "autostartable" : true,
+        "format" : 0,
+        "iconPath" : "",
+        "name" : "Logitech LCD RSS Reader"
+      },
+      "fe20" : 
+      {
+        "appPath" : "C:/Program Files/Logitech Gaming Software/Applets/LCDRSS.exe",
+        "autostartable" : true,
+        "format" : 1,
+        "iconPath" : "",
+        "name" : "Logitech LCD RSS Reader"
+      }
+    },
+    "devices" : 
+    {
+      "Logitech.Gaming.Emulators.Color" : 
+      {
+        "applets" : 
+        {
+          "1ca5" : 
+          {
+            "enabled" : true
+          },
+          "412f" : 
+          {
+            "enabled" : true
+          },
+          "67f2" : 
+          {
+            "enabled" : true
+          },
+          "6f3d" : 
+          {
+            "enabled" : true
+          },
+          "739d" : 
+          {
+            "enabled" : true
+          },
+          "7e89" : 
+          {
+            "enabled" : true
+          },
+          "95aa" : 
+          {
+            "enabled" : true
+          },
+          "a5ee" : 
+          {
+            "enabled" : true
+          },
+          "bb3c" : 
+          {
+            "enabled" : true
+          },
+          "d9e3" : 
+          {
+            "enabled" : true
+          },
+          "fe20" : 
+          {
+            "enabled" : true
+          }
+        },
+        "foregroundapplet" : "d9e3"
+      },
+      "Logitech.Gaming.Emulators.Mono" : 
+      {
+        "applets" : 
+        {
+          "6214" : 
+          {
+            "enabled" : true
+          },
+          "6f00" : 
+          {
+            "enabled" : true
+          },
+          "767b" : 
+          {
+            "enabled" : true
+          },
+          "8423" : 
+          {
+            "enabled" : true
+          },
+          "aab5" : 
+          {
+            "enabled" : true
+          },
+          "c86a" : 
+          {
+            "enabled" : true
+          },
+          "efa9" : 
+          {
+            "enabled" : true
+          }
+        },
+        "foregroundapplet" : "c86a"
+      }
+    },
+    "mono_applets_launched" : 
+    {
+      "8.96.88" : 
+      {
+        "Logitech.Gaming.Emulators.Color" : true,
+        "Logitech.Gaming.Emulators.Mono" : true
+      }
+    },
+    "qvga_applets_launched" : 
+    {
+      "8.96.88" : 
+      {
+        "Logitech.Gaming.Emulators.Color" : true
+      }
+    }
+  },
+  "lightingSettings" : 
+  {
+    "Logitech.Gaming.Keyboard.G910" : 
+    {
+      "current" : "PerKey",
+      "perProfile" : true
+    }
+  },
+  "mainapp" : 
+  {
+    "autostart" : true
+  },
+  "mainwindow" : 
+  {
+    "ScanForGames" : true,
+    "dynamicImageDownload" : true,
+    "enableAppletDeviceView" : true,
+    "enableLEDSDK" : true,
+    "hasAppletMgrBeenSeen" : true,
+    "lastUsedDevice" : "Logitech.Gaming.Spectrum.Headset.G933",
+    "useEnhancedGraphics" : true
+  },
+  "mobile" : 
+  {
+    "authentication" : 
+    [
+      {
+        "access" : 1,
+        "id" : "{4476a8a4-f1b4-4942-a368-382224e4bec1}",
+        "name" : "ONE A2003",
+        "type" : "android"
+      },
+      {
+        "access" : 1,
+        "id" : "{00000000-0000-0000-0000-000000000000}",
+        "name" : "192.168.1.144",
+        "type" : ""
+      }
+    ],
+    "delay" : 
+    {
+      "enabled" : false
+    },
+    "last-manual-ip" : "192.168.1.144",
+    "service" : 
+    {
+      "enabled" : true,
+      "no-new-paring-allowed" : false
+    },
+    "service_guid" : "{c0751a6b-74e7-4951-bd13-2cabf8d84897}"
+  },
+  "notification" : 
+  {
+    "battery" : 
+    {
+      "Logitech.Gaming.Spectrum.Headset.G933" : 
+      {
+        "Critical" : 1528387630,
+        "Low" : 1528387050
+      }
+    },
+    "showBatteryWarningOnTaskbar" : true
+  },
+  "palette" : 
+  {
+    "custom" : 
+    {
+      "colors" : "4287299584, NULL, NULL, NULL, NULL, NULL, ",
+      "coloumn" : 3,
+      "row" : 2
+    },
+    "fix" : 
+    {
+      "colors" : "4294901760, 4294922240, 4294958080, 4278255360, 4294967295, 4278246655, 4278190335, 4286578943, 4294902015, 4278190080, ",
+      "coloumn" : 5,
+      "row" : 2
+    }
+  },
+  "pointer" : 
+  {
+    "Logitech.Gaming.Mouse.G502RGB" : 
+    {
+      "anglesnapping" : true,
+      "currentDPIValue" : 
+      [
+        2500,
+        2500
+      ],
+      "dpi" : 
+      {
+        "defaultIndex" : 2,
+        "shiftIndex" : 0,
+        "syncXY" : true,
+        "values" : 
+        [
+          {
+            "enabled" : true,
+            "x" : 200,
+            "y" : 200
+          },
+          {
+            "enabled" : true,
+            "x" : 1100,
+            "y" : 1100
+          },
+          {
+            "enabled" : true,
+            "x" : 2500,
+            "y" : 2500
+          },
+          {
+            "enabled" : true,
+            "x" : 3000,
+            "y" : 3000
+          },
+          {
+            "enabled" : true,
+            "x" : 5000,
+            "y" : 5000
+          }
+        ]
+      },
+      "hardwareMode" : false,
+      "powerMode" : 2,
+      "reportRate" : 1000
+    },
+    "globaldpi" : false,
+    "hasAcceleration" : true
+  },
+  "proVideoSettings" : 
+  {
+    "Logitech.Webcam.C922" : 
+    {
+      "tips" : 
+      {
+        "command" : false
+      }
+    }
+  },
+  "profiler" : 
+  {
+    "autoScannedForGames" : true,
+    "defaultProfile" : "{09D92D75-3C8C-4723-B06C-4090BCB899C0}",
+    "enableQuickMacroDelays" : true,
+    "joystickMouseSpeed" : 127,
+    "lastProfile" : "{09D92D75-3C8C-4723-B06C-4090BCB899C0}",
+    "persistentProfile" : "{09D92D75-3C8C-4723-B06C-4090BCB899C0}",
+    "profileCyclingCmd" : 0,
+    "recordMultiKeyMacroDelays" : true,
+    "showMacroActivationOnLCD" : true,
+    "showProfileActivationOnLCD" : true,
+    "showQuickMacrosOnLCD" : true,
+    "sp" : 
+    {
+      "hasMigrated" : true
+    }
+  },
+  "splashscreen" : 
+  {
+    "G560_first" : true
+  },
+  "surroundsound" : 
+  {
+    "Logitech.Gaming.Spectrum.Headset.G933" : 
+    {
+      "setting" : 
+      {
+        "channel_mixer" : 
+        {
+          "enabled" : true,
+          "levels" : 
+          [
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11
+          ]
+        },
+        "dolby" : true,
+        "dolby_movie_mode" : false,
+        "dts" : 
+        {
+          "room" : 1,
+          "stereo" : 4
+        },
+        "dts_channel_mixer" : 
+        {
+          "enabled" : true,
+          "levels" : 
+          [
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11
+          ]
+        },
+        "surround sound" : true,
+        "surround type" : "dolby"
+      }
+    }
+  },
+  "sync_effect_settings" : 
+  {
+    "settings" : null,
+    "synckeyboard" : false
+  },
+  "webcam_settings" : 
+  {
+    "Logitech.Webcam.C922" : 
+    {
+      "global" : 
+      {
+        "0" : 
+        {
+          "0" : 
+          {
+            "flags" : 2,
+            "value" : 128
+          },
+          "1" : 
+          {
+            "flags" : 2,
+            "value" : 128
+          },
+          "3" : 
+          {
+            "flags" : 2,
+            "value" : 128
+          },
+          "4" : 
+          {
+            "flags" : 2,
+            "value" : 128
+          },
+          "7" : 
+          {
+            "flags" : 1,
+            "value" : 4000
+          },
+          "8" : 
+          {
+            "flags" : 2,
+            "value" : 0
+          }
+        },
+        "1" : 
+        {
+          "0" : 
+          {
+            "flags" : 2,
+            "value" : 0
+          },
+          "1" : 
+          {
+            "flags" : 2,
+            "value" : 0
+          },
+          "19" : 
+          {
+            "flags" : 0,
+            "value" : 0
+          },
+          "3" : 
+          {
+            "flags" : 2,
+            "value" : 100
+          }
+        },
+        "FoV" : 1
+      }
+    }
+  }
+}

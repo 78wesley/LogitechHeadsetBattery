@@ -1,0 +1,2 @@
+D:\Users\ricky\Desktop\wesley\Battery\Battery\obj\Debug\Fakes\m\o\f.csprojAssemblyReference.cache
+D:\Users\ricky\Desktop\wesley\Battery\Battery\obj\Debug\Fakes\m\o\f.csproj.CoreCompileInputs.cache
