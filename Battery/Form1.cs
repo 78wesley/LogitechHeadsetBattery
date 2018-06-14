@@ -38,6 +38,7 @@ namespace Battery
         /// <param name="Filename"></param>
         public void LoadJson(string Filename =@"settings.json")
         {
+            
             try
             {
                 #region Bullshit
@@ -97,6 +98,7 @@ namespace Battery
             {
 
             }
+
 
         }
         private void trackBar1_Scroll(object sender, EventArgs e)
@@ -209,12 +211,15 @@ namespace Battery
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            
+
 #if DEBUG
             LoadJson();
 #endif
 #if !DEBUG
             LoadJson(String.Format("C:\\users\\{0}\\appdata\\local\\logitech\\logitech Gaming Software\\settings.json", Environment.UserName));
 #endif
+           
         }
 
         private void repeater_Tick(object sender, EventArgs e)
@@ -248,6 +253,23 @@ namespace Battery
         private void Form1_ClientSizeChanged(object sender, EventArgs e)
         {
             Console.WriteLine("Window state: {0}", WindowState);
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void label1_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void DelayTimer_Tick(object sender, EventArgs e)
+        {
+            DelayTimer.Enabled = false;
+            DelayTimer.Stop();
+            Close();
         }
     }
     public class last_battery_status{

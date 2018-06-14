@@ -34,11 +34,12 @@
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.rcsettings = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.rcexit = new System.Windows.Forms.ToolStripMenuItem();
             this.hideToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.rcexit = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.repeater = new System.Windows.Forms.Timer(this.components);
             this.label2 = new System.Windows.Forms.Label();
+            this.DelayTimer = new System.Windows.Forms.Timer(this.components);
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,8 +56,8 @@
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.rcsettings,
             this.toolStripSeparator1,
-            this.rcexit,
-            this.hideToolStripMenuItem});
+            this.hideToolStripMenuItem,
+            this.rcexit});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.ShowImageMargin = false;
             this.contextMenuStrip1.Size = new System.Drawing.Size(92, 76);
@@ -74,19 +75,19 @@
             this.toolStripSeparator1.Name = "toolStripSeparator1";
             this.toolStripSeparator1.Size = new System.Drawing.Size(88, 6);
             // 
-            // rcexit
-            // 
-            this.rcexit.Name = "rcexit";
-            this.rcexit.Size = new System.Drawing.Size(91, 22);
-            this.rcexit.Text = "Exit";
-            this.rcexit.Click += new System.EventHandler(this.rcexit_Click);
-            // 
             // hideToolStripMenuItem
             // 
             this.hideToolStripMenuItem.Name = "hideToolStripMenuItem";
             this.hideToolStripMenuItem.Size = new System.Drawing.Size(91, 22);
             this.hideToolStripMenuItem.Text = "Hide";
             this.hideToolStripMenuItem.Click += new System.EventHandler(this.hideToolStripMenuItem_Click);
+            // 
+            // rcexit
+            // 
+            this.rcexit.Name = "rcexit";
+            this.rcexit.Size = new System.Drawing.Size(91, 22);
+            this.rcexit.Text = "Exit";
+            this.rcexit.Click += new System.EventHandler(this.rcexit_Click);
             // 
             // label1
             // 
@@ -97,6 +98,7 @@
             this.label1.Size = new System.Drawing.Size(53, 23);
             this.label1.TabIndex = 1;
             this.label1.Text = "100%";
+            this.label1.TextChanged += new System.EventHandler(this.label1_TextChanged);
             // 
             // repeater
             // 
@@ -109,11 +111,17 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(270, 147);
+            this.label2.Location = new System.Drawing.Point(130, 79);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(79, 7);
             this.label2.TabIndex = 2;
             this.label2.Text = "Copyright Ricky Visser";
+            // 
+            // DelayTimer
+            // 
+            this.DelayTimer.Enabled = true;
+            this.DelayTimer.Interval = 250;
+            this.DelayTimer.Tick += new System.EventHandler(this.DelayTimer_Tick);
             // 
             // Form1
             // 
@@ -149,6 +157,7 @@
         private System.Windows.Forms.Timer repeater;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ToolStripMenuItem hideToolStripMenuItem;
+        private System.Windows.Forms.Timer DelayTimer;
     }
 }
 
